@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.11
+FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y unzip python3 wget nano vim openjdk-8-jre iputils-ping
 RUN export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
 
